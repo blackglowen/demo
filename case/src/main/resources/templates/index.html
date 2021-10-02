@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http//www.thymeleof.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="/webjars/bootstrop/css/boostrap.min.css"/>
+
+</head>
+<body>
+	<div class="container text-center">
+		<div>
+			<h1>Hos Geldiniz...</h1>
+		</div>
+		<div>
+			<h3><a th:href="@{/list_users}">BÜTÜN KULLANICILAR</a></h3>
+			<h3><a th:href="@{/register}">KAYIT OL</a></h3>
+			<h3><a th:href="@{/login}">GİRİŞ YAP</a></h3>
+		</div>
+	</div>
+</body>
+</html>
